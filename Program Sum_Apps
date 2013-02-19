@@ -1,0 +1,22 @@
+Program Sum_Apps;
+uses crt;
+clrscr;
+
+Var
+Num1,Num2,Num3,Num4,Sum:Integer;
+
+Begin
+ Write('Input number 1;');
+ Readln(Num1);
+ Write('Input number 2;');
+ Readln(Num2);
+ Write('Input number 3;');
+ Readln(Num3);
+ Write('Input number 4;');
+ Readln(Num4);
+ Sum:=Num1+Num2+Num3+Num4;
+ Writeln(sum);
+ Readln;
+End.
+
+///Program Penghitung Jumlah Total
