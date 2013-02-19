@@ -1,0 +1,17 @@
+Program Sin_Calculation_Apps;
+uses crt;
+
+Var
+sin,de,mi:real;
+
+Begin
+ Write('Input number depan;');
+ Readln(de);
+ Write('Input number miring;');
+ Readln(mi);
+ Sin:=de/mi;
+ Writeln(sin);
+ Readln;
+End.
+
+///Program Penghitung Sin
