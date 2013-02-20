@@ -1,0 +1,17 @@
+program sum_average;
+uses crt;
+
+var
+ NilaiTugas,NilaiMid,NilaiUKK,RataRata:real;
+
+Begin
+write('Input Nilai Tugas:');
+readln(NilaiTugas);
+Write('Input Nilai Mid:');
+readln(NilaiMid);
+write('Nilai UKK:');
+readln(NilaiUKK);
+RataRata:=(20/100*NilaiTugas)+(30/100*NilaiMid)+(50/100*NilaiUKK);
+Writeln(RataRata);
+Readln;
+End.
