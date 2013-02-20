@@ -1,0 +1,30 @@
+program calculator_divide_plus_mines_subtract;
+uses crt;
+
+var
+ num1,num2,perkalian,pembagian,penjumlahan,pengurangan:real;
+
+Begin
+write('Input Number 1:');
+readln(Num1);
+write('Input Number 2:');
+readln(Num2);
+
+perkalian:=num1*num2;
+pembagian:=num1/num2;
+penjumlahan:=num1+num2;
+pengurangan:=num1-num2;
+
+write('Hasil Perkalian');
+writeln('',perkalian:0:1);
+
+write('Hasil Pembagian');
+writeln('',pembagian:0:1);
+
+write('Hasil Penjumlahan');
+writeln('',penjumlahan:0:1);
+
+write('Hasil Pengurangan');
+writeln('',pengurangan:0:1);
+readln;
+end.
